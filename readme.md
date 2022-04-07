@@ -57,6 +57,31 @@ To run the app:
 2. Open `http://localhost:8080` in a browser.
 3. Run `./jake.sh loose=true` (Unix/Mac) or `jake loose=true` (Windows) every time you want to build and test. Alternatively, use `./watch.sh loose=true` (Unix/Mac) or `watch loose=true` (Windows) to automatically run `jake` whenever files change.
 
+Note: Install Live server extension for VsCode if not installed
+
+2. Select/Highlight the `src` folder by clicking once. 
+
+3. click on `Go Live` option in righ-bottom corner of Vscode. 
+
+Note: If `Go Live` option not visible, please disable and then enable the Live server extension in VsCode.
+
+4. Open Web App in browser using correct path of HTML for relevant Assignment. For Example
+
+To run Assignment 1, Url would be:
+ http://127.0.0.1:5500/{Relative path}/src/Assignment-1/assignment1.html
+
+
+5. Run `node_modules/.bin/karma run -- --grep="Assignment-1"` every time you want to build and test `Assignemnt 1`. 
+
+6. Run `node_modules/.bin/karma run -- --grep="Assignment-2"` every time you want to build and test `Assignemnt 2`. 
+
+7. Run `node_modules/.bin/karma run -- --grep="Assignment-3"` every time you want to build and test `Assignemnt 3`. 
+
+8. Run `node_modules/.bin/karma run -- --grep="Assignment-4"` every time you want to build and test `Assignemnt 4`. 
+
+9. Run `node_modules/.bin/karma run -- --grep="Assignment-5"` every time you want to build and test `Assignemnt 5`.
+
+10. Run `node_modules/.bin/karma run -- --grep="Assignment-6"` every time you want to build and test `Assignemnt 6`. 
 
 
 Contents
